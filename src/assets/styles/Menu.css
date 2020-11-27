@@ -1,0 +1,31 @@
+.App{
+    width: 100vw;
+    display: flex;
+}
+.Home{
+    align-items: center;
+    background-color: #0278ae;
+    display: flex;
+    height: 100px;
+    width: 100%;
+    position: relative;
+}
+.Menu{
+    display: flex;
+    width: 100vw;
+    position: absolute;
+    bottom: 0;
+    justify-content: center;
+}
+.Menu picture{
+    align-items: center;
+    background-color: #51adcf;
+    display: flex;
+    height: 10vh;
+    width: 200vw;
+    justify-content: center;
+}
+img{
+    width: 50px;
+    height: 50px;
+}

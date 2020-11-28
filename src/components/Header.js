@@ -1,5 +1,4 @@
 import React from 'react'
-import icon from  '../assets/static/add_icon.png'
 import '../assets/styles/Menu.css'
 
 

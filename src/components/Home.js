@@ -1,5 +1,5 @@
 import React from "react"
-import './assets/styles/Menu.css'
+import '../assets/styles/Menu.css'
 
 const Home = () =>{
     return(

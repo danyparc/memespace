@@ -1,22 +1,31 @@
 # MemeSpace
-A place where you cand upload and enjoy memes
+Un lugar para subir y disfrutar memes.
+A place where you can upload and enjoy memes.
 
-## Installation
-
-Use the package manager [npm](https://www.npmjs.com/) to install MemeSpace.
-
-```bash
-npm install
-```
+## About
+Como parte de la comunidad de Frontend Café estamos construyendo una plataforma para subir Memes.
+For learning purposes at Frontend Café, We're are building a meme platform.
+**Status:**
+Design: 32%
+Main dashboard: 0%
+Backend: 0%
+**Design:**
+(link to Design specs and prototype is going to be here when ready)
+Design references: Instagram
+Inspired on Instagram's feed
 
 ## Here you can
-
 - Find out last memes
 - Give likes
+- Share memes
+- Upload Memes
+- Categorize memes
 
-References: Instagram
-
-Inspired on Instagram's feed
+## Stack
+Por ahora memespace está pensado para ser una webapp construida con:
+For now memespace is intended to be a WebApp build with:
+- NodeJS
+- ReactJS
 
 
 ## Contributing

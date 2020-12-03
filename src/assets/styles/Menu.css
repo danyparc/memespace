@@ -1,34 +1,39 @@
+:root{
+    --just-white: #ffffff;
+    --soft-white: #f0f5f9;
+    --soft-blue: #c9d6df;
+    --hard-blue: #52616b;
+    --black: #1e2022;
+}
+
 .App{
     width: 100vw;
 }
+
+/* -- Header --*/
 .Header{
     height: 10vh;
     width: 100%;
-    background-color: #1e2022;
+    background-color: var(--black);
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 .Header_one, .Header_two{
-    margin: 0;
     font-family: 'Montserrat', sans-serif;
     font-size: 1.8rem;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    padding: 0;
-    color: #ffffff;
+    margin: 0;
+    color: var(--just-white);
 }
 .Header_one{
-    margin-left: 5%;
+    margin-left: 5rem;
 }
 .Header_two{
-    margin-left: 15%;
+    margin-left: 8rem;
 }
-.Home{
-    width: 100%;
-    position: relative;
-    text-align: center;
-}
+
+
+/* -- Menu -- */
 .Menu{
     width: 100vw;
     position: absolute;
@@ -36,7 +41,7 @@
 }
 .Menu picture{
     align-items: center;
-    background-color: #52616b;
+    background-color: var(--hard-blue);
     display: flex;
     height: 8vh;
     justify-content: center;
@@ -44,3 +49,54 @@
 img{
     width: 4em;
 }
+
+/* -- Home -- */
+.timeline{
+    width: 100%;
+    height: auto;
+    background-color: var(--just-white);
+}
+.post{
+    min-width: 320px;
+    max-width: 500px;
+    height: auto;
+    margin: 0 auto;
+    background-color: var(--soft-white);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.post picture{
+    width: 90%;
+    margin: 10px auto;
+}
+.post picture img{
+    display: inline;
+    width: 100%;
+}
+.actions{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0px auto;
+    height: 50px;
+}
+.actions-left, .actions-right{
+    width: 50%;
+    height: auto;
+    display: flex;
+}
+.actions-left img{
+    margin: auto 0px auto 20px;
+    width: 40px;
+    height: 38px;
+}
+.actions-right img{
+    margin: auto 20px auto 0px;
+    width: 40px;
+    height: 38px;
+}
+.actions-right{
+    flex-direction: row-reverse;
+}
+

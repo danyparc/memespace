@@ -1,11 +1,10 @@
 import React from 'react'
 import '../assets/styles/Menu.css'
-
+import logo from '../assets/static/logo.png'
 
 const Header = () => (
     <div className="Header">
-            <h3 className="Header_one">Meme</h3>
-            <h3 className="Header_two">Space</h3>
+            <img src={logo} className="logo object-cover" alt=""/>
     </div>
 )
 

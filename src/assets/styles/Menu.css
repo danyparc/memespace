@@ -3,7 +3,7 @@
     --soft-white: #f0f5f9;
     --soft-blue: #c9d6df;
     --hard-blue: #52616b;
-    --black: #1e2022;
+    --black: #000;
 }
 
 .App{
@@ -12,7 +12,7 @@
 
 /* -- Header --*/
 .Header{
-    height: 10vh;
+    height: 54px;
     width: 100%;
     background-color: var(--black);
     display: flex;
@@ -30,6 +30,12 @@
 }
 .Header_two{
     margin-left: 8rem;
+}
+.Header .logo{
+    width: 40%;
+    max-width: 200px;
+    margin-left: 16px;
+    height: auto;
 }
 
 
